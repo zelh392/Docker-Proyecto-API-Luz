@@ -1,0 +1,26 @@
+
+services:
+  backend:
+    image: zelh392/proyecto-nodejs-backend:latest  
+    container_name: backend
+    ports:
+      - "3000:3000"  
+    environment:
+      - NODE_ENV=production  
+    networks:
+      - mynetwork
+
+  frontend:
+    image: zelh392/proyecto-nodejs-frontend:latest  
+    container_name: frontend
+    ports:
+      - "5173:5173"  
+    depends_on:
+      - backend 
+    networks:
+      - mynetwork
+    command: npm run dev -- --host 0.0.0.0  
+
+networks:
+  mynetwork:
+    driver: bridge  
