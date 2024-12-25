@@ -7,7 +7,7 @@
 
    ```bash
    git clone https://github.com/zelh392/Docker-Proyecto-API-Luz
-   cd proyecto-api-precio-luz
+   cd Docker-Proyecto-API-Luz
 
 
 ### Explicación:
