@@ -3,7 +3,7 @@
 
 ### Pasos para ejecutar el proyecto:
 
-1. Clona este repositorio:
+1. Clonar este repositorio:
 
    ```bash
    git clone https://github.com/zelh392/Docker-Proyecto-API-Luz
@@ -12,7 +12,7 @@
 
 ### Explicación:
 
-- **`docker-compose up`** descargará las imágenes del contenedor desde tu Docker Hub y las levantará automáticamente.
+- **`docker-compose up`** descargará las imágenes del contenedor desde Docker Hub y las levantará automáticamente.
 - Si hay actualizaciones de la imagen en Docker Hub, con **`docker-compose pull`** los usuarios pueden actualizar las imágenes antes de levantar los contenedores con **`docker-compose up`**.
 
 ### Ventajas de este enfoque:
